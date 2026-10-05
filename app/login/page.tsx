@@ -32,12 +32,12 @@ export default function Login(){
   }
 
   return(
-    <main className="flex min-h-screen items-center justify-center bg-gray-100">
-      <div className="w-full max-w-md rounded-2xl bg-white p-8 shadow-lg">
+    <main className="flex min-h-screen items-center justify-center bg-blue-300">
+      <div className="w-full max-w-md rounded-2xl bg-purple-500 p-8 shadow-lg">
         <h1 className="mb-8 text-center font-bold ">Área Administrativa</h1>
       
       
-      <p className="mb-8 text-center text-gray-500 ">Faça login para acessar o painel</p>
+      <p className="mb-8 text-center text-white-500 ">Faça login para acessar o painel</p>
       
       <div>
         <label>Usuario</label>
@@ -63,7 +63,7 @@ export default function Login(){
 
       <button
       onClick={entrar}
-      className="w-full rounded-lg bg-blue-600 
+      className="w-full rounded-lg bg-blue-400 
       py-3 mt-6 font-semibold text-white hover:bg-blue-800 cursor-pointer"
       >
         Entrar
